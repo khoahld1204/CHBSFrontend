@@ -1,0 +1,227 @@
+﻿/* styles/ProductList.module.css */
+
+.personalizationBlock {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 10px;
+}
+
+/* --- Header --- */
+.blockHeader {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.blockHeaderTitle {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #444;
+    padding: 5px 20px;
+    background-color: #e5f5e5; /* Màu nền xanh nhạt cho header */
+    border-radius: 20px;
+}
+
+.headerIcon {
+    margin: 0 8px;
+    font-size: 1.2rem;
+}
+
+/* --- Product Grid --- */
+.productListGrid {
+    display: grid;
+    /* 5 cột trên desktop */
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.productItem {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: box-shadow 0.2s;
+    text-align: left; /* Căn lề trái nội dung */
+}
+
+    .productItem:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+/* --- Images --- */
+.productImagesContainer {
+    position: relative;
+    padding-top: 100%; /* Giữ tỉ lệ 1:1 cho box ảnh */
+    overflow: hidden;
+}
+
+.productImage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Đảm bảo ảnh hiển thị đầy đủ */
+}
+
+.fhsImgFrameBlock {
+    /* Khung/Frame phải nằm trên ảnh chính */
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.episodeLabel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #c92127; /* Màu đỏ */
+    color: white;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    border-top-left-radius: 5px;
+    z-index: 5;
+}
+
+/* --- Text & Price --- */
+.productName {
+    font-size: 0.9rem;
+    font-weight: normal;
+    height: 3.2em; /* Giới hạn 2 dòng */
+    line-height: 1.6em;
+    overflow: hidden;
+    margin: 10px 0 5px 0;
+}
+
+    .productName a {
+        color: #444;
+        text-decoration: none;
+        display: block;
+    }
+
+        .productName a:hover {
+            color: #c92127;
+        }
+
+.priceLabel {
+    margin: 5px 0;
+}
+
+.specialPrice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #c92127; /* Giá đặc biệt màu đỏ */
+    margin-right: 8px;
+}
+
+.discountPercent {
+    background-color: #c92127;
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.oldPrice {
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: line-through;
+}
+
+/* --- Sold & Rating --- */
+.soldContainer {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 5px;
+}
+
+.soldQtyNum {
+    margin-left: 5px;
+}
+
+.soldSeparator {
+    color: #ddd;
+    margin: 0 5px;
+}
+
+/* Rating Stars (Giả lập cấu trúc rating box) */
+.ratingContainer {
+    display: inline-block;
+}
+
+.ratingBox {
+    width: 60px; /* Chiều rộng tổng 5 sao */
+    height: 12px;
+    background: url('data:image/svg+xml;utf8,<svg fill="#ccc" height="12" viewBox="0 0 24 24" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>');
+    background-size: 12px 12px;
+}
+
+.rating {
+    height: 100%;
+    background: url('data:image/svg+xml;utf8,<svg fill="#ffc107" height="12" viewBox="0 0 24 24" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>');
+    background-size: 12px 12px;
+}
+
+
+/* ================== RESPONSIVE DESIGN ================== */
+
+/* ------------------ Tablet (<= 1024px) ------------------ */
+@media (max-width: 1024px) {
+    .productListGrid {
+        /* Giảm xuống 4 cột */
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+    }
+}
+
+/* ------------------ Small Tablet/Mobile Landscape (<= 768px) ------------------ */
+@media (max-width: 768px) {
+    .productListGrid {
+        /* Giảm xuống 3 cột */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+}
+
+/* ------------------ Mobile (<= 480px) ------------------ */
+@media (max-width: 480px) {
+    .productListGrid {
+        /* Giảm xuống 2 cột */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .blockHeaderTitle {
+        font-size: 1.2rem;
+    }
+
+    .productName {
+        font-size: 0.8rem;
+        height: 2.8em;
+    }
+
+    .price {
+        font-size: 0.9rem;
+    }
+
+    .oldPrice, .soldContainer {
+        font-size: 0.75rem;
+    }
+}

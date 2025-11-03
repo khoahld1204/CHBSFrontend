@@ -1,0 +1,187 @@
+﻿/* src/components/Collections/Collections.module.css - Tối ưu hóa Slider Responsive */
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+/* --- 1. Header Block --- */
+.headerBlock {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #FCDDEF; /* Màu hồng nhạt */
+    margin-bottom: 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.headerIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* --- 2. Content Slider/List (Flexbox cho Cuộn Ngang) --- */
+.contentWrapper {
+    position: relative;
+    padding: 10px 0;
+    /* CHỈNH SỬA: Tăng margin âm để tạo không gian cho mũi tên nằm ngoài list */
+    margin: 0 -15px;
+}
+
+.collectionsList {
+    display: flex;
+    overflow-x: scroll; /* Kích hoạt cuộn ngang */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    /* CHỈNH SỬA: Padding ngang để mũi tên không đè lên item đầu/cuối */
+    padding: 0 45px;
+    gap: 0; /* Bỏ gap ở đây và dùng padding trong item để kiểm soát khoảng cách tốt hơn */
+}
+
+    /* Ẩn thanh cuộn cho các trình duyệt */
+    .collectionsList::-webkit-scrollbar {
+        display: none;
+    }
+
+.collectionsList {
+    scrollbar-width: none;
+}
+
+/* --- 3. Collection Item Style (Responsive Width) --- */
+.collectionItem {
+    flex: 0 0 auto;
+    text-align: center;
+    scroll-snap-align: start;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Dùng padding-right để tạo khoảng cách giữa các item */
+    padding: 0 10px 0 0;
+    /* Mặc định Mobile (<= 767px): 3 mục rưỡi -> Kích thước cố định */
+    width: 110px;
+    min-width: 110px;
+}
+
+    .collectionItem:hover {
+        transform: translateY(-3px);
+        /* Thêm shadow nhẹ khi hover (Tùy chọn: nếu cần nổi bật) */
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    }
+
+.imageContainer {
+    width: 100%;
+    /* CHỈNH SỬA: Giữ tỷ lệ hình ảnh vuông */
+    padding-bottom: 100%;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.collectionImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* CHỈNH SỬA: Thêm border-radius nếu hình ảnh không phải hình tròn */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.collectionName {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+    line-height: 1.3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* --- 4. Navigation Buttons (Arrows) --- */
+.navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px; /* Kích thước nút lớn hơn */
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 50%; /* Tròn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 20;
+    font-size: 24px; /* Icon lớn hơn */
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .navButton.prev {
+        /* Đưa nút vào sát mép trái của contentWrapper (margin -15px) */
+        left: 10px;
+    }
+
+    .navButton.next {
+        /* Đưa nút vào sát mép phải của contentWrapper */
+        right: 10px;
+    }
+
+/* ================== RESPONSIVE MEDIA QUERIES ================== */
+
+/* Tablet & Mobile Lớn (Màn hình 768px trở lên): 6 mục/view */
+@media (min-width: 768px) {
+    .collectionItem {
+        /* Tối ưu hóa hiển thị 6 mục/view */
+        width: 16.666%;
+        min-width: 120px;
+    }
+
+    .navButton {
+        display: flex; /* Hiển thị mũi tên */
+    }
+}
+
+/* Desktop (Màn hình 1024px trở lên): 8 mục/view */
+@media (min-width: 1024px) {
+    .collectionItem {
+        /* Tối ưu hóa hiển thị 8 mục/view */
+        width: 12.5%;
+        min-width: unset;
+    }
+}
+
+/* Ẩn nút trên mobile nhỏ */
+@media (max-width: 767px) {
+    .navButton {
+        display: none;
+    }
+
+    .contentWrapper {
+        /* Bỏ margin âm và padding dư thừa khi không có nút */
+        margin: 0;
+    }
+
+    .collectionsList {
+        padding: 0 10px; /* Giữ padding nhẹ cho cuộn */
+    }
+}

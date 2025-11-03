@@ -1,0 +1,244 @@
+﻿.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.auth-modal {
+    background: #fff;
+    border-radius: 10px;
+    /* Giữ nguyên chiều rộng cho desktop/tablet */
+    width: 420px;
+    padding: 25px 30px;
+    position: relative;
+    animation: fadeIn 0.2s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.tab-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px; /* Tăng khoảng cách */
+    position: relative;
+}
+    /* Thêm đường kẻ mờ bên dưới */
+    .tab-header::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    z-index: 2;
+}
+
+    .tab.active {
+        color: #d32f2f;
+        border-color: #d32f2f;
+        font-weight: 600; /* Tăng độ đậm */
+    }
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px; /* Tăng gap giữa các khối */
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+input {
+    /* CHỈNH SỬA: Viền mỏng và padding cao hơn */
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 14px 12px;
+    font-size: 15px;
+    color: #333;
+    outline: none;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+    input:focus {
+        /* CHỈNH SỬA: Box shadow mờ khi focus */
+        border-color: #d32f2f;
+        box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.2);
+    }
+
+    input::placeholder {
+        color: #999;
+    }
+
+.password-box {
+    position: relative;
+}
+
+.show-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #1976d2; /* Giữ màu xanh cho chữ "Hiện" */
+    cursor: pointer;
+    user-select: none;
+}
+
+.forgot-link {
+    text-align: right;
+    font-size: 14px;
+    color: #d32f2f;
+    cursor: pointer;
+    margin-top: -10px; /* Giảm khoảng cách để sát input hơn */
+}
+
+/* --- OTP Methods --- */
+.otp-methods {
+    display: flex;
+    gap: 10px;
+}
+
+.otp-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #fff;
+    font-size: 14px;
+    color: #555;
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+    .otp-btn.active {
+        border-color: #1976d2;
+        background: #e3f2fd;
+        color: #1976d2;
+    }
+
+.otp-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.error-message {
+    color: #d32f2f;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* --- Buttons (Action Buttons) --- */
+.btn-action {
+    /* CHỈNH SỬA: Kích thước chung cho tất cả nút hành động */
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px; /* Tăng font size */
+    transition: opacity 0.2s;
+    margin-top: 5px; /* Giảm margin top */
+}
+
+/* 1. Nút ĐỎ - Màu chính (Đăng nhập, Đăng ký) */
+.btn-red-filled {
+    background: #d32f2f;
+    color: #fff;
+    border: none;
+}
+
+    .btn-red-filled:disabled {
+        background: #e0e0e0;
+        cursor: not-allowed;
+    }
+
+/* 2. Nút TRẮNG/VIỀN ĐỎ (Bỏ qua) */
+.btn-white-border {
+    background: #fff;
+    color: #d32f2f;
+    border: 1px solid #d32f2f;
+}
+
+    .btn-white-border:hover {
+        background: #fdeaea;
+    }
+
+/* 3. Nút MẶC ĐỊNH (Đăng ký/Xác nhận trong form không cần phân biệt) */
+.btn-default {
+    background: #e0e0e0;
+    color: #555;
+    border: none;
+}
+
+    .btn-default:disabled {
+        background: #e0e0e0;
+        color: #555;
+        cursor: not-allowed;
+    }
+
+
+/* Responsive */
+@media (max-width: 480px) {
+    .auth-modal {
+        width: 90%;
+        padding: 20px 20px;
+        /* Đảm bảo form vẫn cuộn nếu nội dung quá dài (ví dụ form đăng ký đầy đủ) */
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .tab {
+        font-size: 15px;
+    }
+
+    input {
+        padding: 12px 10px;
+    }
+
+    .btn-action {
+        font-size: 16px;
+    }
+
+    .otp-btn {
+        font-size: 13px;
+        padding: 8px;
+    }
+}

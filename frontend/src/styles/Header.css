@@ -1,0 +1,570 @@
+﻿.header-wrapper {
+    font-family: "Inter", Arial, sans-serif;
+    width: 100%;
+}
+
+/* 🔴 TOP BANNER */
+.top-banner {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.banner-img {
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+}
+
+/* ⚪ MAIN HEADER */
+.main-header {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/* ✅ Logo */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0; /* Đảm bảo logo không bị co lại */
+}
+
+.logo-img {
+    height: 44px;
+    width: auto;
+    display: block; /* Đảm bảo logo luôn hiển thị */
+    object-fit: contain;
+}
+
+.menu-toggle-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon {
+    width: 28px;
+    height: 28px;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #4b5563;
+}
+
+/* Custom style for the X icon when menu is open */
+.menu-toggle-button .menu-icon[data-lucide="x"] {
+    color: #dc2626;
+}
+
+/* 🔍 Search bar */
+.search-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 780px;
+    margin: 0 16px;
+    height: 44px;
+    background-color: #fff;
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 14px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #111827;
+}
+
+.search-input::placeholder {
+    color: #9ca3af;
+}
+
+.search-button {
+    background-color: #d62828; /* Fahasa red tone */
+    border: none;
+    padding: 0 18px;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+/* 🛒 Icon section */
+.icon-section {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #4b5563;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+    .icon-item:hover {
+        color: #dc2626;
+    }
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Cart Link Styling */
+.cart-link {
+    text-decoration: none;
+    color: #4b5563;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+    .cart-link span {
+        color: inherit;
+    }
+
+    .cart-link:hover {
+        color: #dc2626;
+    }
+
+/* 👤 Account */
+.account-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.account-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.account-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1;
+}
+
+.account {
+    font-size: 13px;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+/* 🌐 Language selector */
+.flag-box {
+    position: relative; /* Quan trọng cho dropdown */
+    display: flex;
+    align-items: center;
+    /* Tăng gap để chữ VN và cờ tách nhau ra */
+    gap: 6px;
+    border: 1px solid #d1d5db;
+    padding: 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: border 0.2s;
+    /* Chiều rộng mặc định cho VN */
+    width: 80px;
+    justify-content: space-between;
+}
+
+    .flag-box:hover {
+        border-color: #dc2628;
+    }
+
+.flag-icon {
+    width: 20px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+.lang-text {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333; /* Màu chữ */
+    flex-shrink: 0;
+}
+
+/* Căn chỉnh lại mũi tên cho VN để nó nằm ở cuối */
+.dropdown-arrow {
+    width:16px;
+    height: 16px;
+    color: #6b7280;
+    /* Đảm bảo nó không bị co lại */
+    flex-shrink: 0;
+    margin-left: 0;
+}
+
+/* CHẾ ĐỘ TIẾNG ANH (EN) */
+.flag-box.flag-box-en {
+    /* Giảm chiều rộng cho EN vì không có chữ */
+    width: 42px;
+    /* Giảm padding để cờ sát lề hơn */
+    padding: 10px 10px;
+    /* Đảm bảo mũi tên vẫn được căn chỉnh tốt */
+    justify-content: center;
+}
+
+    /* Ẩn mũi tên dropdown ở chế độ EN */
+    .flag-box.flag-box-en .dropdown-arrow {
+        display: none;
+    }
+
+/* CSS cho Dropdown menu */
+.lang-dropdown {
+    position: absolute;
+    top: 100%;
+    /* căn chỉnh dropdown nằm bên phải của flag-box */
+    right: 0;
+    margin-top: 5px; /* khoảng cách với box */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    min-width: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.lang-option {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+    .lang-option:hover {
+        background-color: #f3f4f6;
+    }
+
+    .lang-option img {
+        width: 20px;
+        height: 14px;
+        margin-right: 8px;
+    }
+
+    .lang-option span {
+        font-size: 14px;
+        color: #333;
+    }
+
+
+/* 🔽 Divider */
+.divider {
+    width: 100%;
+    height: 6px;
+    background-color: #f3f4f6;
+}
+
+/* --- Responsive --- (Giữ nguyên) */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .header-container {
+        gap: 10px;
+        padding: 8px 12px;
+    }
+
+    .search-section {
+        max-width: 520px;
+        margin: 0 8px;
+    }
+
+    .icon-section {
+        gap: 10px;
+    }
+
+    .icon-item span {
+        display: none;
+    }
+
+    .account-text {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .top-banner {
+        height: 40px;
+    }
+
+    .banner-img {
+        height: 40px;
+    }
+
+    .header-container {
+        padding: 6px 8px;
+        gap: 8px;
+    }
+
+    .logo-img {
+        height: 28px;
+    }
+
+    .menu-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .search-section {
+        display: none;
+    }
+
+    .icon-section {
+        gap: 12px;
+    }
+
+    .icon,
+    .flag-icon,
+    .dropdown-arrow{
+        width:20px;
+        height: 20px;
+    }
+
+    .flag-icon{
+        width:18px;
+        height:12px;
+    }
+
+    .flaf-box{
+        padding: 6px 8px;
+        width:68px;
+    }
+
+    .flag-box.flag-box-en{
+        width:38px;
+        padding: 6px 6px;
+    }
+
+    .divider {
+        height: 4px;
+    }
+}
+
+/* Siêu nhỏ (mobile nhỏ) */
+@media (max-width: 480px) {
+    .top-banner {
+        height: 35px;
+    }
+
+    .banner-img {
+        height: 35px;
+    }
+
+    .header-container {
+        padding: 5px 6px;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+
+    .logo-section {
+        gap: 4px;
+        flex: 1;
+        min-width: 120px;
+        flex-shrink: 0; /* Đảm bảo logo section không bị co lại */
+    }
+
+    .logo-img {
+        height: 24px;
+        width: auto;
+        max-width: 100%;
+        display: block !important; /* Đảm bảo logo luôn hiển thị */
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .menu-icon {
+        width: 16px;
+        height: 16px;
+        margin-left: 4px;
+    }
+
+    .icon-section {
+        gap: 8px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+
+    .icon-item span,
+    .cart-link span {
+        display: none;
+    }
+
+    .account-text {
+        display: none;
+    }
+
+    .icon,
+    .cart-icon-img,
+    .account-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .flag-box {
+        width: 50px;
+        padding: 6px 4px;
+        gap: 3px;
+    }
+
+    .lang-text {
+        font-size: 11px;
+    }
+
+    .flag-icon {
+        width: 16px;
+        height: 12px;
+    }
+
+    .dropdown-arrow {
+        width: 12px;
+        height: 12px;
+    }
+
+    .flag-box.flag-box-en {
+        width: 32px;
+        padding: 6px 4px;
+    }
+
+    .main-header {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .divider {
+        height: 3px;
+    }
+}
+
+@media (max-width: 375px) {
+    .top-banner {
+        height: 30px;
+    }
+
+    .banner-img {
+        height: 30px;
+    }
+
+    .header-container {
+        padding: 4px 5px;
+        gap: 4px;
+    }
+
+    .logo-img {
+        height: 20px;
+        width: auto;
+        max-width: 100%;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .menu-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .icon-section {
+        gap: 6px;
+    }
+
+    .icon,
+    .cart-icon-img,
+    .account-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .flag-box {
+        width: 45px;
+        padding: 5px 3px;
+    }
+
+    .lang-text {
+        font-size: 10px;
+    }
+
+    .flag-icon {
+        width: 14px;
+        height: 10px;
+    }
+
+    .dropdown-arrow {
+        width: 10px;
+        height: 10px;
+    }
+
+    .flag-box.flag-box-en {
+        width: 28px;
+        padding: 5px 3px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 320px) {
+    .header-container {
+        padding: 3px 4px;
+    }
+
+    .logo-img {
+        height: 18px;
+    }
+
+    .icon-section {
+        gap: 4px;
+    }
+
+    .icon,
+    .cart-icon-img,
+    .account-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .flag-box {
+        width: 40px;
+    }
+}

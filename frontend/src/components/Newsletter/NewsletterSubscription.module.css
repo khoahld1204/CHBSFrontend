@@ -1,0 +1,91 @@
+﻿/* src/components/Newsletter/NewsletterSubscription.module.css */
+
+.container {
+    background-color: #a0a0a0; /* Màu nền xám theo hình */
+    padding: 25px 10px;
+}
+
+.innerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Mặc định xếp dọc trên mobile */
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+/* --- Tiêu đề (ĐĂNG KÝ NHẬN BẢN TIN) --- */
+.subscribeTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.iconEnvelope {
+    font-size: 20px;
+    color: white; /* Màu icon */
+    margin-right: 10px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    color: white; /* Màu chữ tiêu đề */
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* --- Form và Input --- */
+.form {
+    display: flex;
+    width: 100%; /* Chiếm toàn bộ chiều rộng có thể */
+    max-width: 600px; /* Giới hạn độ rộng của form trên desktop */
+}
+
+.inputEmail {
+    flex-grow: 1; /* Chiếm hết không gian còn lại */
+    padding: 12px 15px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px; /* Bo góc trái */
+    min-width: 150px; /* Ngăn input quá nhỏ */
+}
+
+    .inputEmail::placeholder {
+        color: #aaa;
+    }
+
+.submitButton {
+    padding: 12px 20px;
+    background-color: #f7941e; /* Màu cam theo hình */
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0; /* Bo góc phải */
+    transition: background-color 0.2s;
+}
+
+    .submitButton:hover {
+        background-color: #e58715;
+    }
+
+/* --- Responsive cho Desktop/Tablet --- */
+@media (min-width: 768px) {
+    .innerContent {
+        flex-direction: row; /* Xếp ngang trên desktop */
+        justify-content: center;
+        gap: 30px; /* Khoảng cách giữa tiêu đề và form */
+    }
+
+    .subscribeTitle {
+        margin-bottom: 0;
+    }
+
+    .form {
+        width: auto; /* Chiều rộng co lại theo max-width */
+        max-width: 400px;
+    }
+}

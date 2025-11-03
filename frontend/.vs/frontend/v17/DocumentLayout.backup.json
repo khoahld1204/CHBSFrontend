@@ -1,0 +1,1163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\fahasa-admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\fahasa-admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\pages\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\Sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Layout\\Sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Layout\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\AdminLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Layout\\AdminLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\AdminFooter.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Layout\\AdminFooter.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\MonthlyTarget.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Dashboard\\MonthlyTarget.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\StatsAreaChart.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Dashboard\\StatsAreaChart.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\CustomerDemographic.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Dashboard\\CustomerDemographic.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\MonthlySalesChart.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Dashboard\\MonthlySalesChart.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\RecentOrdersTable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Dashboard\\RecentOrdersTable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\StatisticsCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Dashboard\\StatisticsCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\ProfileSidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Profile\\ProfileSidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\ProfileContent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Profile\\ProfileContent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\Profile.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Profile\\Profile.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\HomePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\HomePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\UserProfilePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Profile\\UserProfilePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductCategoryMenu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ProductCategoryMenu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductCategoryMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\ProductCategoryMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\auth\\AuthModal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\auth\\AuthModal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\auth\\AuthModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\auth\\AuthModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\HomeBanner.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\HomeBanner.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Collections\\Collections.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Collections\\Collections.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Collections\\FeaturedCollections.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Collections\\FeaturedCollections.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Collections\\CollectionItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Collections\\CollectionItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboTrending.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ComboTrending\\ComboTrending.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboTrending.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ComboTrending\\ComboTrending.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FlashSaleSection.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\FlashSaleSection.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\FeaturedBookshelf.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\FeaturedBookshelf.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBookshelf.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\FeaturedBookshelf.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ReferenceProducts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\ReferenceProducts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ReferenceProducts.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ReferenceProducts.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductCategories.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ProductCategories.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\Footer.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\Footer.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\footer\\Footer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\footer\\Footer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\HalloweenSection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\HalloweenSection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\HalloweenSection.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\HalloweenSection.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\FlashSaleSection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\FlashSaleSection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\PromoBanner.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\PromoBanner.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PromoBanner.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\PromoBanner.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\Header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\Header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\EmptyCart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\EmptyCart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\EmptyCartPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\EmptyCartPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductList\\ProductList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ProductList\\ProductList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\productData.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\productData.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductList.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\ProductList.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ProductCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\BestsellerRankings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\BestsellerRankings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Newsletter\\NewsletterSubscription.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Newsletter\\NewsletterSubscription.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Newsletter\\NewsletterSubscription.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Newsletter\\NewsletterSubscription.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PartnerSlider\\PartnerSlider.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\PartnerSlider\\PartnerSlider.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PartnerSlider\\PartnerSlider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\PartnerSlider\\PartnerSlider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PartnerSlider\\PartnerLogoItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\PartnerSlider\\PartnerLogoItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\partnerLogos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\partnerLogos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\collectionData.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\collectionData.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboTabs.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ComboTrending\\ComboTabs.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboSlider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ComboTrending\\ComboSlider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ComboTrending\\ComboItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\comboData.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\comboData.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\FeaturedBrands.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\FeaturedBrands\\FeaturedBrands.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\BookItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\FeaturedBrands\\BookItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\BrandTabs.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\FeaturedBrands\\BrandTabs.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\BookSlider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\FeaturedBrands\\BookSlider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\FeaturedBrands.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\FeaturedBrands\\FeaturedBrands.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\BestsellerRankings.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\BestsellerRankings.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductCard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\ProductCard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductGrid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\ProductGrid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\FeaturedBrandsSection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\FeaturedBrandsSection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminFooter.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\AdminFooter.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Layout\\AdminFooter.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\AdminFooter.jsx",
+              "RelativeToolTip": "src\\components\\Layout\\AdminFooter.jsx",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T16:47:43.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminLayout.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\AdminLayout.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Layout\\AdminLayout.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\AdminLayout.jsx",
+              "RelativeToolTip": "src\\components\\Layout\\AdminLayout.jsx",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwFEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T12:53:01.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\Header.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Layout\\Header.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\Header.jsx",
+              "RelativeToolTip": "src\\components\\Layout\\Header.jsx",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAIwHYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T12:57:50.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fahasa-admin.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\fahasa-admin.css",
+              "RelativeDocumentMoniker": "src\\styles\\fahasa-admin.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\fahasa-admin.css",
+              "RelativeToolTip": "src\\styles\\fahasa-admin.css",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAI0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-01T13:06:11.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sidebar.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\Sidebar.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Layout\\Sidebar.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Layout\\Sidebar.jsx",
+              "RelativeToolTip": "src\\components\\Layout\\Sidebar.jsx",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T12:58:09.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\pages\\Dashboard.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Dashboard.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\pages\\Dashboard.jsx",
+              "RelativeToolTip": "src\\pages\\Dashboard.jsx",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwFwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T13:01:39.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\App.js",
+              "RelativeDocumentMoniker": "src\\App.js",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\App.js",
+              "RelativeToolTip": "src\\App.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-15T01:38:50.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MonthlyTarget.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\MonthlyTarget.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Dashboard\\MonthlyTarget.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\MonthlyTarget.jsx",
+              "RelativeToolTip": "src\\components\\Dashboard\\MonthlyTarget.jsx",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwD4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T12:59:38.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\index.js",
+              "RelativeDocumentMoniker": "src\\index.js",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\index.js",
+              "RelativeToolTip": "src\\index.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-01T13:14:10.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatsAreaChart.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\StatsAreaChart.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Dashboard\\StatsAreaChart.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\StatsAreaChart.jsx",
+              "RelativeToolTip": "src\\components\\Dashboard\\StatsAreaChart.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T13:00:25.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerDemographic.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\CustomerDemographic.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Dashboard\\CustomerDemographic.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\CustomerDemographic.jsx",
+              "RelativeToolTip": "src\\components\\Dashboard\\CustomerDemographic.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T13:00:43.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MonthlySalesChart.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\MonthlySalesChart.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Dashboard\\MonthlySalesChart.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\MonthlySalesChart.jsx",
+              "RelativeToolTip": "src\\components\\Dashboard\\MonthlySalesChart.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T12:59:55.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RecentOrdersTable.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\RecentOrdersTable.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Dashboard\\RecentOrdersTable.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\RecentOrdersTable.jsx",
+              "RelativeToolTip": "src\\components\\Dashboard\\RecentOrdersTable.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T13:00:58.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StatisticsCard.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\StatisticsCard.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Dashboard\\StatisticsCard.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Dashboard\\StatisticsCard.jsx",
+              "RelativeToolTip": "src\\components\\Dashboard\\StatisticsCard.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-01T13:00:10.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserProfilePage.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\UserProfilePage.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Profile\\UserProfilePage.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\UserProfilePage.jsx",
+              "RelativeToolTip": "src\\components\\Profile\\UserProfilePage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-31T16:36:19.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProfileContent.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\ProfileContent.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Profile\\ProfileContent.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\ProfileContent.jsx",
+              "RelativeToolTip": "src\\components\\Profile\\ProfileContent.jsx",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAUAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-31T16:35:39.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProfileSidebar.js",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\ProfileSidebar.js",
+              "RelativeDocumentMoniker": "src\\components\\Profile\\ProfileSidebar.js",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\ProfileSidebar.js",
+              "RelativeToolTip": "src\\components\\Profile\\ProfileSidebar.js",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwDoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-31T16:34:34.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Profile.module.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\Profile.module.css",
+              "RelativeDocumentMoniker": "src\\components\\Profile\\Profile.module.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Profile\\Profile.module.css",
+              "RelativeToolTip": "src\\components\\Profile\\Profile.module.css",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAAAKcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-31T16:33:35.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomePage.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\HomePage.jsx",
+              "RelativeDocumentMoniker": "src\\components\\HomePage.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\HomePage.jsx",
+              "RelativeToolTip": "src\\components\\HomePage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-20T14:35:30.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthModal.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\auth\\AuthModal.jsx",
+              "RelativeDocumentMoniker": "src\\components\\auth\\AuthModal.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\auth\\AuthModal.jsx",
+              "RelativeToolTip": "src\\components\\auth\\AuthModal.jsx",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAKgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T02:08:09.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthModal.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\auth\\AuthModal.css",
+              "RelativeDocumentMoniker": "src\\components\\auth\\AuthModal.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\auth\\AuthModal.css",
+              "RelativeToolTip": "src\\components\\auth\\AuthModal.css",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAAAOgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-19T02:08:20.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductCategoryMenu.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductCategoryMenu.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ProductCategoryMenu.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductCategoryMenu.jsx",
+              "RelativeToolTip": "src\\components\\ProductCategoryMenu.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-16T17:13:49.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductCategoryMenu.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductCategoryMenu.css",
+              "RelativeDocumentMoniker": "src\\styles\\ProductCategoryMenu.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductCategoryMenu.css",
+              "RelativeToolTip": "src\\styles\\ProductCategoryMenu.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-16T17:14:57.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeBanner.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\HomeBanner.jsx",
+              "RelativeDocumentMoniker": "src\\components\\HomeBanner.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\HomeBanner.jsx",
+              "RelativeToolTip": "src\\components\\HomeBanner.jsx",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-20T03:45:43.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Collections.module.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Collections\\Collections.module.css",
+              "RelativeDocumentMoniker": "src\\components\\Collections\\Collections.module.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Collections\\Collections.module.css",
+              "RelativeToolTip": "src\\components\\Collections\\Collections.module.css",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-19T16:25:27.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FeaturedCollections.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Collections\\FeaturedCollections.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Collections\\FeaturedCollections.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Collections\\FeaturedCollections.jsx",
+              "RelativeToolTip": "src\\components\\Collections\\FeaturedCollections.jsx",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwDsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T16:25:06.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CollectionItem.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Collections\\CollectionItem.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Collections\\CollectionItem.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Collections\\CollectionItem.jsx",
+              "RelativeToolTip": "src\\components\\Collections\\CollectionItem.jsx",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T16:24:30.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ComboTrending.module.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboTrending.module.css",
+              "RelativeDocumentMoniker": "src\\components\\ComboTrending\\ComboTrending.module.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboTrending.module.css",
+              "RelativeToolTip": "src\\components\\ComboTrending\\ComboTrending.module.css",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAABIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-19T16:11:53.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ComboTrending.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboTrending.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ComboTrending\\ComboTrending.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboTrending.jsx",
+              "RelativeToolTip": "src\\components\\ComboTrending\\ComboTrending.jsx",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T16:11:29.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FlashSaleSection.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FlashSaleSection.jsx",
+              "RelativeDocumentMoniker": "src\\components\\FlashSaleSection.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FlashSaleSection.jsx",
+              "RelativeToolTip": "src\\components\\FlashSaleSection.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-17T15:14:49.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FeaturedBookshelf.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\FeaturedBookshelf.css",
+              "RelativeDocumentMoniker": "src\\styles\\FeaturedBookshelf.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\FeaturedBookshelf.css",
+              "RelativeToolTip": "src\\styles\\FeaturedBookshelf.css",
+              "ViewState": "AgIAANEAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-16T07:49:10.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FeaturedBookshelf.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBookshelf.jsx",
+              "RelativeDocumentMoniker": "src\\components\\FeaturedBookshelf.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBookshelf.jsx",
+              "RelativeToolTip": "src\\components\\FeaturedBookshelf.jsx",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAIwOAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T05:12:06.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ReferenceProducts.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ReferenceProducts.css",
+              "RelativeDocumentMoniker": "src\\styles\\ReferenceProducts.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ReferenceProducts.css",
+              "RelativeToolTip": "src\\styles\\ReferenceProducts.css",
+              "ViewState": "AgIAACwBAAAAAAAAAAAAADsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-18T04:41:41.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReferenceProducts.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ReferenceProducts.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ReferenceProducts.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ReferenceProducts.jsx",
+              "RelativeToolTip": "src\\components\\ReferenceProducts.jsx",
+              "ViewState": "AgIAALsAAAAAAAAAAAAIwL4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T04:41:18.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ProductCategories.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductCategories.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ProductCategories.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductCategories.jsx",
+              "RelativeToolTip": "src\\components\\ProductCategories.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-20T03:45:31.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Footer.module.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\Footer.module.css",
+              "RelativeDocumentMoniker": "src\\styles\\Footer.module.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\Footer.module.css",
+              "RelativeToolTip": "src\\styles\\Footer.module.css",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAAwP8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-20T03:03:55.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Footer.js",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\footer\\Footer.js",
+              "RelativeDocumentMoniker": "src\\components\\footer\\Footer.js",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\footer\\Footer.js",
+              "RelativeToolTip": "src\\components\\footer\\Footer.js",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAowL0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-20T03:03:22.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "HalloweenSection.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\HalloweenSection.css",
+              "RelativeDocumentMoniker": "src\\styles\\HalloweenSection.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\HalloweenSection.css",
+              "RelativeToolTip": "src\\styles\\HalloweenSection.css",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAcwN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-17T13:42:10.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HalloweenSection.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\HalloweenSection.jsx",
+              "RelativeDocumentMoniker": "src\\components\\HalloweenSection.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\HalloweenSection.jsx",
+              "RelativeToolTip": "src\\components\\HalloweenSection.jsx",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowFwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-17T13:41:11.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FlashSaleSection.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\FlashSaleSection.css",
+              "RelativeDocumentMoniker": "src\\styles\\FlashSaleSection.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\FlashSaleSection.css",
+              "RelativeToolTip": "src\\styles\\FlashSaleSection.css",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAcwJUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-31T14:08:34.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PromoBanner.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\PromoBanner.css",
+              "RelativeDocumentMoniker": "src\\styles\\PromoBanner.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\PromoBanner.css",
+              "RelativeToolTip": "src\\styles\\PromoBanner.css",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAcwLwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-31T13:56:35.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PromoBanner.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PromoBanner.jsx",
+              "RelativeDocumentMoniker": "src\\components\\PromoBanner.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PromoBanner.jsx",
+              "RelativeToolTip": "src\\components\\PromoBanner.jsx",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowDEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-20T03:45:15.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Header.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\Header.css",
+              "RelativeDocumentMoniker": "src\\styles\\Header.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\Header.css",
+              "RelativeToolTip": "src\\styles\\Header.css",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAcwHYBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-16T16:57:50.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Header.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Header.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Header.jsx",
+              "RelativeToolTip": "src\\components\\Header.jsx",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAUwOkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-16T16:54:38.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EmptyCart.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\EmptyCart.css",
+              "RelativeDocumentMoniker": "src\\styles\\EmptyCart.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\EmptyCart.css",
+              "RelativeToolTip": "src\\styles\\EmptyCart.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-20T14:28:25.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductList.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductList\\ProductList.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ProductList\\ProductList.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductList\\ProductList.jsx",
+              "RelativeToolTip": "src\\components\\ProductList\\ProductList.jsx",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAwMEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-20T03:59:58.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EmptyCartPage.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\EmptyCartPage.jsx",
+              "RelativeDocumentMoniker": "src\\components\\EmptyCartPage.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\EmptyCartPage.jsx",
+              "RelativeToolTip": "src\\components\\EmptyCartPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-20T14:28:03.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "productData.js",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\productData.js",
+              "RelativeDocumentMoniker": "src\\data\\productData.js",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\productData.js",
+              "RelativeToolTip": "src\\data\\productData.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-20T03:59:08.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProductList.module.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductList.module.css",
+              "RelativeDocumentMoniker": "src\\styles\\ProductList.module.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductList.module.css",
+              "RelativeToolTip": "src\\styles\\ProductList.module.css",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAiwN8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-20T04:00:30.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProductCard.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductCard.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ProductCard.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ProductCard.jsx",
+              "RelativeToolTip": "src\\components\\ProductCard.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-17T15:14:41.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BestsellerRankings.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\BestsellerRankings.jsx",
+              "RelativeDocumentMoniker": "src\\components\\BestsellerRankings.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\BestsellerRankings.jsx",
+              "RelativeToolTip": "src\\components\\BestsellerRankings.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-16T07:59:33.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "NewsletterSubscription.module.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Newsletter\\NewsletterSubscription.module.css",
+              "RelativeDocumentMoniker": "src\\components\\Newsletter\\NewsletterSubscription.module.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Newsletter\\NewsletterSubscription.module.css",
+              "RelativeToolTip": "src\\components\\Newsletter\\NewsletterSubscription.module.css",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-19T16:56:03.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PartnerSlider.module.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PartnerSlider\\PartnerSlider.module.css",
+              "RelativeDocumentMoniker": "src\\components\\PartnerSlider\\PartnerSlider.module.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PartnerSlider\\PartnerSlider.module.css",
+              "RelativeToolTip": "src\\components\\PartnerSlider\\PartnerSlider.module.css",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAcwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-19T16:42:39.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "NewsletterSubscription.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Newsletter\\NewsletterSubscription.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Newsletter\\NewsletterSubscription.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\Newsletter\\NewsletterSubscription.jsx",
+              "RelativeToolTip": "src\\components\\Newsletter\\NewsletterSubscription.jsx",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwDQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T16:55:35.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PartnerSlider.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PartnerSlider\\PartnerSlider.jsx",
+              "RelativeDocumentMoniker": "src\\components\\PartnerSlider\\PartnerSlider.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PartnerSlider\\PartnerSlider.jsx",
+              "RelativeToolTip": "src\\components\\PartnerSlider\\PartnerSlider.jsx",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T16:42:15.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PartnerLogoItem.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PartnerSlider\\PartnerLogoItem.jsx",
+              "RelativeDocumentMoniker": "src\\components\\PartnerSlider\\PartnerLogoItem.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\PartnerSlider\\PartnerLogoItem.jsx",
+              "RelativeToolTip": "src\\components\\PartnerSlider\\PartnerLogoItem.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T16:41:51.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "partnerLogos.js",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\partnerLogos.js",
+              "RelativeDocumentMoniker": "src\\data\\partnerLogos.js",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\partnerLogos.js",
+              "RelativeToolTip": "src\\data\\partnerLogos.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-19T16:41:08.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "collectionData.js",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\collectionData.js",
+              "RelativeDocumentMoniker": "src\\data\\collectionData.js",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\collectionData.js",
+              "RelativeToolTip": "src\\data\\collectionData.js",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwDkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-19T16:23:31.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ComboTabs.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboTabs.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ComboTrending\\ComboTabs.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboTabs.jsx",
+              "RelativeToolTip": "src\\components\\ComboTrending\\ComboTabs.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T16:11:06.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ComboSlider.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboSlider.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ComboTrending\\ComboSlider.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboSlider.jsx",
+              "RelativeToolTip": "src\\components\\ComboTrending\\ComboSlider.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T16:10:42.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ComboItem.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboItem.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ComboTrending\\ComboItem.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\ComboTrending\\ComboItem.jsx",
+              "RelativeToolTip": "src\\components\\ComboTrending\\ComboItem.jsx",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T16:10:11.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "comboData.js",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\comboData.js",
+              "RelativeDocumentMoniker": "src\\data\\comboData.js",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\data\\comboData.js",
+              "RelativeToolTip": "src\\data\\comboData.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-19T16:08:36.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "BookSlider.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\BookSlider.jsx",
+              "RelativeDocumentMoniker": "src\\components\\FeaturedBrands\\BookSlider.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\BookSlider.jsx",
+              "RelativeToolTip": "src\\components\\FeaturedBrands\\BookSlider.jsx",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T15:09:56.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "BookItem.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\BookItem.jsx",
+              "RelativeDocumentMoniker": "src\\components\\FeaturedBrands\\BookItem.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\BookItem.jsx",
+              "RelativeToolTip": "src\\components\\FeaturedBrands\\BookItem.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T15:09:26.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "BrandTabs.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\BrandTabs.jsx",
+              "RelativeDocumentMoniker": "src\\components\\FeaturedBrands\\BrandTabs.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\BrandTabs.jsx",
+              "RelativeToolTip": "src\\components\\FeaturedBrands\\BrandTabs.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T15:09:00.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "FeaturedBrands.jsx",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\FeaturedBrands.jsx",
+              "RelativeDocumentMoniker": "src\\components\\FeaturedBrands\\FeaturedBrands.jsx",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\FeaturedBrands.jsx",
+              "RelativeToolTip": "src\\components\\FeaturedBrands\\FeaturedBrands.jsx",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGUAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-19T15:08:26.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "FeaturedBrands.module.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\FeaturedBrands.module.css",
+              "RelativeDocumentMoniker": "src\\components\\FeaturedBrands\\FeaturedBrands.module.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\components\\FeaturedBrands\\FeaturedBrands.module.css",
+              "RelativeToolTip": "src\\components\\FeaturedBrands\\FeaturedBrands.module.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-19T15:10:25.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "BestsellerRankings.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\BestsellerRankings.css",
+              "RelativeDocumentMoniker": "src\\styles\\BestsellerRankings.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\BestsellerRankings.css",
+              "RelativeToolTip": "src\\styles\\BestsellerRankings.css",
+              "ViewState": "AgIAAFEBAAAAAAAAAADwv2cBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-16T07:59:47.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ProductCard.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductCard.css",
+              "RelativeDocumentMoniker": "src\\styles\\ProductCard.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductCard.css",
+              "RelativeToolTip": "src\\styles\\ProductCard.css",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv2sAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-17T15:46:16.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ProductGrid.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductGrid.css",
+              "RelativeDocumentMoniker": "src\\styles\\ProductGrid.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\ProductGrid.css",
+              "RelativeToolTip": "src\\styles\\ProductGrid.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-16T09:10:47.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "FeaturedBrandsSection.css",
+              "DocumentMoniker": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\FeaturedBrandsSection.css",
+              "RelativeDocumentMoniker": "src\\styles\\FeaturedBrandsSection.css",
+              "ToolTip": "C:\\Users\\\u0110\u0103ng Khoa\\source\\repos\\frontend\\src\\styles\\FeaturedBrandsSection.css",
+              "RelativeToolTip": "src\\styles\\FeaturedBrandsSection.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-16T08:32:35.695Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

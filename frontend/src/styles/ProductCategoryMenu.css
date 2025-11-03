@@ -1,0 +1,219 @@
+﻿/* src/styles/ProductCategoryMenu.css */
+
+/* ------------------ OVERLAY & CONTAINER ------------------ */
+
+.category-menu-overlay {
+    /* To make it appear below the header and fill the screen */
+    position: absolute;
+    top: 130px; /* Adjust based on the header's height */
+    left: 0;
+    width: 100%;
+    min-height: calc(100vh - 130px);
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    z-index: 1000;
+    font-family: "Inter", Arial, sans-serif;
+    animation: fadeInOverlay 0.2s ease-out;
+}
+
+.category-menu-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    min-height: 500px; /* Chiều cao cố định */
+    padding: 0;
+}
+
+/* ------------------ LEFT SIDEBAR MENU ------------------ */
+
+.sidebar-menu {
+    width: 250px; /* Width of the sidebar */
+    background-color: #f8f8f8; /* Light gray background for sidebar */
+    border-right: 1px solid #eee;
+    padding: 0;
+}
+
+.menu-header {
+    background-color: #f7f7f7;
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 15px;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.main-category-list {
+    padding: 0;
+}
+
+.main-category-item {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+    .main-category-item:last-child {
+        border-bottom: none;
+    }
+
+    .main-category-item:hover {
+        background-color: #e6f7ff; /* Light blue on hover */
+        color: #096dd9;
+    }
+
+    .main-category-item.active {
+        background-color: #fff; /* White background for active item */
+        color: #dc2626; /* Red text for active item */
+        font-weight: 600;
+        border-left: 3px solid #dc2626; /* Red border indicator */
+        padding-left: 12px;
+    }
+
+/* ------------------ RIGHT CATEGORY DETAILS ------------------ */
+
+.category-details {
+    flex-grow: 1;
+    padding: 15px 25px;
+}
+
+.details-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: #dc2626; /* Red color for main category title */
+    margin: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.icon-book-red {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns as per image */
+    gap: 20px;
+    padding-right: 20px;
+}
+
+/* Sub-category group styling */
+.subcategory-group {
+    margin-bottom: 20px;
+}
+
+.subcategory-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #dc2626; /* Red color for group title */
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.subcategory-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.category-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+    .category-link:hover {
+        color: #dc2626; /* Red on hover */
+        text-decoration: underline;
+    }
+
+    .category-link span:first-child {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+.sub-text {
+    color: #dc2626;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+/* ------------------ ANIMATION ------------------ */
+@keyframes fadeInOverlay {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* ------------------ RESPONSIVE ADJUSTMENTS ------------------ */
+
+@media (max-width: 1200px) {
+    .category-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on smaller desktops */
+    }
+}
+
+@media (max-width: 1024px) {
+    .category-menu-container {
+        min-height: 400px;
+    }
+
+    .sidebar-menu {
+        width: 200px;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+    }
+}
+
+@media (max-width: 768px) {
+    .category-menu-overlay {
+        top: 80px; /* Adjust top for smaller header */
+    }
+
+    .category-menu-container {
+        display: block; /* Stacks sections on mobile */
+        min-height: auto;
+    }
+
+    .sidebar-menu {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .main-category-list {
+        display: none; /* Hide main category list on small mobile, might switch to dropdown/accordion */
+    }
+
+    .menu-header {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .category-details {
+        padding: 15px;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr; /* Single column on mobile */
+        gap: 15px;
+    }
+}

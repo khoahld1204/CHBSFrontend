@@ -1,0 +1,224 @@
+﻿/* --- Base Container --- */
+.fb-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-family: Arial, sans-serif;
+}
+
+/* --- Header Section (Pink Background) --- */
+.fb-header-section {
+    background-color: #fdeaea; /* Màu hồng nhạt */
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.fb-title-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* STYLE MỚI CHO LOGO DẠNG IMG */
+.fb-logo-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.fb-section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+/* --- Carousel Layout --- */
+.fb-carousel-wrapper {
+    position: relative;
+    /* CHỈNH SỬA: Tăng padding để mũi tên có thể nằm hoàn toàn bên ngoài khu vực sách */
+    padding: 0 40px 20px;
+}
+
+.fb-book-carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    gap: 15px;
+    padding: 0 5px; /* Padding nhẹ để không bị dính sát lề */
+    /* Ẩn thanh cuộn */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+    .fb-book-carousel::-webkit-scrollbar {
+        display: none;
+    }
+
+/* --- Book Item --- */
+.fb-book-item {
+    /* CHỈNH SỬA LỚN: Sử dụng calc() cho kích thước linh hoạt trên màn hình rộng */
+    /* Giả định hiển thị khoảng 8 item/dòng trên Desktop lớn */
+    width: calc((100% - 15px * 9) / 10);
+    min-width: 100px; /* Kích thước tối thiểu cho mobile */
+    max-width: 120px;
+    flex-shrink: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fb-book-image {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Giữ max-height cho mobile */
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+    .fb-book-image:hover {
+        transform: translateY(-2px);
+    }
+
+.fb-book-title {
+    font-size: 13px;
+    color: #555;
+    margin-top: 8px;
+    line-height: 1.3;
+    height: 34px; /* Giới hạn hiển thị tiêu đề */
+    overflow: hidden;
+    /* Dùng Webkit để đảm bảo giới hạn 2 dòng */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* --- Navigation Arrow --- */
+.fb-nav-arrow {
+    position: absolute;
+    /* CHỈNH SỬA: Căn giữa dọc tốt hơn với ảnh sách */
+    top: 55%;
+    transform: translateY(-50%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    display: none; /* Mặc định ẩn trên mobile nhỏ */
+    transition: opacity 0.2s;
+    opacity: 1;
+}
+
+    .fb-nav-arrow.right {
+        right: 15px; /* Nằm ngoài khu vực sách */
+    }
+
+    .fb-nav-arrow.left {
+        left: 15px; /* Nằm ngoài khu vực sách */
+    }
+
+.fb-arrow-icon {
+    width: 16px;
+    height: 16px;
+    color: #555;
+}
+
+/* --- RESPONSIVE MEDIA QUERIES --- */
+
+/* Desktop Lớn (>= 1200px) */
+@media (min-width: 1200px) {
+    /* CHỈNH SỬA: Hiển thị 9 item/dòng */
+    .fb-book-item {
+        width: calc((100% - 15px * 9) / 10);
+        max-width: unset;
+        min-width: unset;
+    }
+
+    .fb-book-image {
+        max-height: 200px; /* Tăng chiều cao ảnh */
+    }
+
+    .fb-nav-arrow {
+        display: block;
+    }
+}
+
+/* Tablet và Desktop Nhỏ (768px - 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* CHỈNH SỬA: Hiển thị 6 item/dòng */
+    .fb-book-item {
+        width: calc((100% - 15px * 6) / 7);
+        min-width: unset;
+        max-width: unset;
+    }
+
+    .fb-book-image {
+        max-height: 150px;
+    }
+
+    .fb-nav-arrow {
+        display: block; /* Hiện mũi tên */
+    }
+
+    .fb-carousel-wrapper {
+        padding: 0 30px 20px;
+    }
+
+    .fb-nav-arrow.right {
+        right: 5px;
+    }
+
+    .fb-nav-arrow.left {
+        left: 5px;
+    }
+}
+
+/* Mobile Lớn (480px - 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .fb-book-item {
+        /* Giữ kích thước cố định để cuộn ngang mượt mà */
+        min-width: 120px;
+        max-width: 120px;
+    }
+
+    .fb-nav-arrow {
+        display: none; /* Ẩn mũi tên */
+    }
+
+    .fb-carousel-wrapper {
+        padding: 0 10px 20px;
+    }
+}
+
+/* Mobile Nhỏ (Dưới 480px) */
+@media (max-width: 479px) {
+    .fb-book-item {
+        /* Giảm kích thước tối đa cho màn hình nhỏ nhất */
+        min-width: 90px;
+        max-width: 90px;
+    }
+
+    .fb-book-title {
+        font-size: 12px;
+        height: 31px;
+    }
+
+    .fb-carousel-wrapper {
+        padding: 0 10px 15px;
+    }
+
+    .fb-header-section {
+        padding: 10px 15px;
+    }
+
+    .fb-section-title {
+        font-size: 15px;
+    }
+}

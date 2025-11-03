@@ -1,0 +1,122 @@
+﻿/* 🔹 Danh sách chứa các thẻ sản phẩm */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* 🔸 Thẻ sản phẩm */
+.product-card {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    padding: 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: left;
+}
+
+    .product-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    }
+
+/* Ảnh sản phẩm */
+.product-img-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.product-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Khung ưu đãi */
+.product-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+/* Tên sản phẩm */
+.product-name {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Giá */
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    flex-wrap: wrap;
+}
+
+.price {
+    color: #d0011b;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.85rem;
+}
+
+.discount {
+    background: #d0011b;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* Số lượng đã bán */
+.sold {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 4px;
+}
+
+/* 🔁 Responsive */
+@media (max-width: 1200px) {
+    .product-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .product-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .product-list {
+        grid-template-columns: 1fr;
+    }
+}

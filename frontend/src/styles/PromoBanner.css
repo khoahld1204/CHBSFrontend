@@ -1,0 +1,258 @@
+﻿.promo-banner-container {
+    display: flex;
+    gap: 20px;
+    background: #f2f2f2;
+    padding: 24px;
+    border-radius: 16px;
+    /* Quan trọng: Đảm bảo các flex-item có chiều cao bằng nhau */
+    align-items: stretch;
+}
+
+.promo-banner-main {
+    /* CHỈNH SỬA: Thay đổi tỷ lệ flex để banner chính rộng hơn (ví dụ 3.5/5) */
+    flex: 3.5;
+    background: linear-gradient(135deg,#FFE1C4 0%,#F4C5E0 100%);
+    border-radius: 24px;
+    padding: 0;
+    /* CHỈNH SỬA: Dùng display: block để dễ dàng quản lý height của img */
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+    /* Đặt chiều cao cố định cho ảnh banner chính */
+    .promo-banner-main img {
+        width: 100%;
+        /* CHỈNH SỬA: Chiều cao ảnh cố định */
+        height: 420px;
+        object-fit: cover;
+        border-radius: 24px;
+    }
+
+.promo-banner-arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 2px 8px #0002;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.promo-banner-arrow-left {
+    left: 10px;
+}
+
+.promo-banner-arrow-right {
+    right: 10px;
+}
+
+.promo-banner-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 14px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+}
+
+.promo-banner-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #f4c5e0;
+    transition: background 0.2s;
+}
+
+    .promo-banner-dot.active {
+        background: #f93434;
+    }
+
+.promo-banner-right {
+    /* CHỈNH SỬA: Thay đổi tỷ lệ flex cho khối bên phải (ví dụ 1.5/5) */
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* BỎ min-height cố định vì align-items: stretch đã xử lý chiều cao */
+}
+
+.promo-banner-right-banner {
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Sử dụng flex-grow: 1 để chia đều không gian chiều cao 100% */
+    flex-grow: 1;
+}
+
+/* ---------- Responsive ---------- */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .promo-banner-container {
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .promo-banner-main {
+        flex: 3; /* Tỷ lệ rộng cho tablet */
+    }
+
+        .promo-banner-main img {
+            height: 240px; /* CHỈNH SỬA: Chiều cao ảnh chính cho tablet */
+        }
+
+    .promo-banner-right {
+        flex: 1; /* Tỷ lệ rộng cho tablet */
+        gap: 12px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .promo-banner-container {
+        flex-direction: column;
+        gap: 10px;
+        padding: 7px;
+        min-height: 0;
+        border-radius: 8px;
+    }
+
+    .promo-banner-main,
+    .promo-banner-right {
+        flex: auto;
+        width: 100%;
+    }
+
+        .promo-banner-main img {
+            /* CHỈNH SỬA: Chiều cao cho mobile */
+            height: 180px;
+            border-radius: 12px;
+        }
+
+    .promo-banner-arrows {
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+
+    .promo-banner-dots {
+        gap: 4px;
+        bottom: 6px;
+    }
+
+    .promo-banner-dot,
+    .promo-banner-dot.active {
+        width: 8px;
+        height: 8px;
+        border-width: 1px;
+    }
+
+    .promo-banner-right {
+        gap: 8px;
+        /* CHỈNH SỬA: Xếp banner phụ theo chiều ngang trên mobile */
+        flex-direction: row;
+    }
+
+    .promo-banner-right-banner {
+        flex-grow: 1;
+        min-height: 80px; /* CHỈNH SỬA: Chiều cao tối thiểu cho mobile */
+        border-radius: 10px;
+    }
+}
+
+/* Siêu nhỏ (mobile nhỏ) */
+@media (max-width: 480px) {
+    .promo-banner-container {
+        padding: 5px;
+        border-radius: 6px;
+        gap: 8px;
+    }
+
+    .promo-banner-main {
+        border-radius: 10px;
+    }
+
+    .promo-banner-main img {
+        height: 140px;
+        border-radius: 10px;
+    }
+
+    .promo-banner-arrows {
+        width: 24px;
+        height: 24px;
+        font-size: 14px;
+    }
+
+    .promo-banner-arrow-left {
+        left: 5px;
+    }
+
+    .promo-banner-arrow-right {
+        right: 5px;
+    }
+
+    .promo-banner-dots {
+        bottom: 5px;
+        gap: 3px;
+    }
+
+    .promo-banner-dot {
+        width: 7px;
+        height: 7px;
+        border-width: 1px;
+    }
+
+    .promo-banner-right {
+        gap: 6px;
+    }
+
+    .promo-banner-right-banner {
+        min-height: 65px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 375px) {
+    .promo-banner-container {
+        padding: 4px;
+        gap: 6px;
+    }
+
+    .promo-banner-main img {
+        height: 120px;
+    }
+
+    .promo-banner-arrows {
+        width: 22px;
+        height: 22px;
+        font-size: 12px;
+    }
+
+    .promo-banner-arrow-left {
+        left: 3px;
+    }
+
+    .promo-banner-arrow-right {
+        right: 3px;
+    }
+
+    .promo-banner-right-banner {
+        min-height: 55px;
+    }
+}

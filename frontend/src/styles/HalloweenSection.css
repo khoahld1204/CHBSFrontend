@@ -1,0 +1,221 @@
+﻿/* --- Tổng quan Khối Halloween --- */
+.halloween-section {
+    background: #FF6A00;
+    padding: 0;
+    border-radius: 12px;
+    color: #222;
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+    /* CHỈNH SỬA: Thêm padding bên trong cho nội dung */
+    padding-bottom: 30px;
+}
+
+/* 🎃 Banner (Giữ nguyên) */
+.halloween-banner {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+    .halloween-banner img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        object-fit: cover;
+    }
+
+/* --- Danh sách Sản phẩm (Grid 5 cột linh hoạt) --- */
+.halloween-products {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    padding: 15px 20px 25px 20px;
+    overflow-x: hidden;
+}
+
+    .halloween-products::-webkit-scrollbar {
+        display: none;
+    }
+
+/* 🧡 Product card */
+.halloween-card {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    /* CHỈNH SỬA: BỎ overflow: visible và đặt lại overflow: hidden */
+    overflow: hidden;
+    transition: box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    min-width: 0;
+    max-width: none;
+    /* CHỈNH SỬA: Thêm padding-top để tạo khoảng trắng cho thẻ discount */
+    padding-top: 10px;
+}
+
+    .halloween-card:hover {
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    }
+
+/* 🌟 PHẦN MỚI: Wrapper cho ảnh để giữ tỷ lệ và tạo khoảng trắng */
+.halloween-img-wrapper {
+    width: 100%;
+    /* Kỹ thuật giữ tỷ lệ: height: 0; padding-bottom: 110% */
+    height: 0;
+    padding-bottom: 110%;
+    position: relative;
+}
+
+/* Ảnh sản phẩm */
+.halloween-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Dùng contain để ảnh không bị cắt, và căn giữa trong khung */
+    object-fit: contain;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+/* 🌟 PHẦN MỚI: Thẻ giảm giá góc trên */
+.discount-tag-corner {
+    position: absolute;
+    /* Căn chỉnh theo góc trên trái của card (đã có padding-top 10px) */
+    top: -2px;
+    left: -2px;
+    background: #d0011b; /* Màu đỏ */
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    /* Hình dạng tag góc */
+    padding: 2px 8px;
+    border-radius: 4px;
+    z-index: 10;
+    /* Hiệu ứng 3D nhẹ (nếu cần) */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Thông tin sản phẩm */
+.halloween-info {
+    padding: 10px 10px 8px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+    min-height: 38px;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.prices {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start; /* Căn trái */
+    flex-wrap: nowrap;
+    gap: 6px;
+    margin-bottom: 4px;
+}
+
+/* BỎ .discount cũ ra khỏi đây */
+.discount {
+    display: none;
+}
+
+.price {
+    color: #d0011b;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.old {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 13px;
+    margin-left: 0;
+}
+
+.sold {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* 🔸 Nút xem thêm */
+.see-more {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+}
+
+    .see-more button {
+        background: #fff;
+        border: 1px solid #d0011b;
+        color: #d0011b;
+        font-weight: 600;
+        border-radius: 4px;
+        padding: 10px 40px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        width: auto;
+    }
+
+        .see-more button:hover {
+            background: #d0011b;
+            color: #fff;
+        }
+
+/* 📱 Responsive (Giữ nguyên) */
+
+/* Tablet/Mobile Lớn (Dưới 1200px) - Chuyển sang 4 cột */
+@media (max-width: 1200px) {
+    .halloween-products {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Tablet (Dưới 992px) - Chuyển sang 3 cột */
+@media (max-width: 992px) {
+    .halloween-products {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
+
+/* Mobile (Dưới 768px) - Chuyển sang 2 cột */
+@media (max-width: 768px) {
+    .halloween-products {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px 10px 20px 10px;
+    }
+}
+
+/* Mobile Nhỏ (Dưới 480px) - Cuộn ngang */
+@media (max-width: 480px) {
+    .halloween-products {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+        padding: 10px 8px 15px 8px;
+    }
+
+    .halloween-card {
+        min-width: 140px;
+        max-width: 140px;
+    }
+
+    .see-more button {
+        width: 90%;
+    }
+}

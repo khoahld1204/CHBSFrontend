@@ -1,0 +1,282 @@
+﻿/* styles/Footer.module.css */
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 30px 20px 10px;
+    border-top: 1px solid #eee;
+    font-family: Arial, sans-serif;
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column {
+    flex-basis: 20%;
+    min-width: 180px;
+}
+
+.logoColumn {
+    flex-basis: 30%;
+    min-width: 250px;
+}
+
+.logo {
+    max-width: 150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    object-fit: contain;
+}
+
+.address, .description {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.verifiedBadge {
+    margin: 15px 0;
+}
+/* Style cho ảnh huy hiệu BCT */
+.bctBadge { /* Thêm style này nếu bạn đang dùng img cho BCT */
+    height: 30px; /* Điều chỉnh chiều cao phù hợp */
+    width: auto;
+}
+
+
+/* Icons mạng xã hội */
+.socialIcons {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.socialImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.appStores {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.appStoreBadge {
+    width: 120px;
+    height: auto;
+}
+
+/* Tiêu đề cột */
+.columnTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.linkList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+    .linkList li {
+        margin-bottom: 8px;
+    }
+
+    .linkList a {
+        text-decoration: none;
+        color: #555;
+        font-size: 0.85rem;
+        transition: color 0.2s;
+    }
+
+        .linkList a:hover {
+            color: #c92127;
+        }
+
+.contactInfo {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+    .contactInfo .icon {
+        margin-right: 5px;
+    }
+
+    .contactInfo .icon {
+        margin-right: 5px;
+    }
+
+/* Dòng Logos Thanh Toán và Vận Chuyển */
+/* Thay đổi lớn ở đây để tách thành 2 dòng riêng biệt */
+.shippingPaymentSection { /* Thêm một div bọc để quản lý 2 dòng */
+    max-width: 1200px;
+    margin: 30px auto 0; /* Khoảng cách trên */
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center; /* Căn giữa các khối logo */
+}
+
+
+.shippingGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px; /* Khoảng cách giữa các cột */
+    height: 80px;
+    max-width: 600px; /* Giới hạn chiều rộng grid */
+    margin: 0 auto; /* Căn giữa */
+}
+
+
+.paymentGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    height: 80px;
+    max-width: 800px; /* Giới hạn chiều rộng grid */
+    margin: 10px auto 0; /* Căn giữa và khoảng cách với dòng trên */
+}
+
+
+.imageContainer {
+    display: flex;
+    justify-content: center; /* Căn giữa logo trong cell */
+    align-items: center; /* Căn giữa dọc logo trong cell */
+    height: 100%;
+}
+
+.shippingLogo, .paymentLogo {
+    max-height: 100%; /* Giới hạn chiều cao theo height của grid */
+    width: auto; /* Width được set inline trong component */
+} 
+
+.shippingLogos {
+    display: flex;
+    justify-content: center; /* Căn giữa các logo vận chuyển */
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px; /* Khoảng cách giữa 2 dòng logo */
+}
+
+.paymentLogos {
+    display: flex;
+    justify-content: center; /* Căn giữa các logo thanh toán */
+    align-items: center;
+    gap: 20px;
+}
+
+
+.shippingLogo {
+    height: 30px; /* Kích thước logo vận chuyển */
+    width: auto;
+}
+
+.paymentLogo {
+    height: 25px; /* Kích thước logo thanh toán */
+    width: auto;
+}
+
+/* Hàng Copyright */
+.copyrightRow {
+    max-width: 1200px;
+    margin: 20px auto 0; /* Khoảng cách trên */
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+    .copyrightRow p {
+        font-size: 0.75rem;
+        color: #888;
+    }
+
+
+/* ================== RESPONSIVE DESIGN ================== */
+
+/* Cho máy tính bảng (dưới 992px) */
+@media (max-width: 992px) {
+    /* ... (Giữ nguyên phần này) ... */
+    .logoColumn {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        max-width: 120px;
+        margin: 0 auto 15px;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .column {
+        flex-basis: 30%;
+        min-width: unset;
+    }
+
+    .footerContainer {
+        justify-content: space-around;
+    }
+
+    .contactInfo {
+        justify-content: center;
+    }
+}
+
+/* Cho điện thoại (dưới 768px) */
+@media (max-width: 768px) {
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .column {
+        flex-basis: 100%;
+        min-width: unset;
+        margin-bottom: 20px;
+    }
+
+    .linkList {
+        text-align: center;
+    }
+
+    .logo {
+        max-width: 100px;
+        margin: 0 auto 15px;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    /* ĐIỀU CHỈNH GRID CHO MOBILE */
+    .shippingGrid {
+        grid-template-columns: repeat(3, 1fr); /* 3 cột vẫn ổn */
+        max-width: 100%;
+        height: auto;
+    }
+
+    .paymentGrid {
+        grid-template-columns: repeat(2, 1fr); /* Giảm xuống 2 cột trên mobile nhỏ */
+        max-width: 100%;
+        height: auto;
+    }
+}

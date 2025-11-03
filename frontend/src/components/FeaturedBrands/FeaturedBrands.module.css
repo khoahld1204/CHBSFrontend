@@ -1,0 +1,205 @@
+﻿/* src/components/FeaturedBrands/FeaturedBrands.module.css */
+
+/* --- 1. General Container and Header --- */
+.container {
+    max-width: 1200px; /* Chiều rộng tối đa của nội dung */
+    margin: 20px auto;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.headerIcon {
+    margin-right: 10px;
+}
+
+.iconHeader {
+    width: 25px;
+    height: 25px;
+}
+
+.title {
+    font-size: 20px;
+    color: #c92127;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* --- 2. Tabs --- */
+.tabList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+    border-bottom: 1px solid #eee;
+}
+
+.tabItem {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s, border-bottom 0.3s;
+    margin-right: 20px;
+}
+
+    .tabItem.active {
+        color: #c92127;
+        border-bottom: 2px solid #c92127;
+    }
+
+/* --- 3. Book Slider and Items (Responsive Layout) --- */
+.sliderWrapper {
+    position: relative;
+    overflow: hidden; /* Ẩn các nút điều hướng bên ngoài khung nhìn */
+    padding: 20px 0;
+}
+
+.bookList {
+    /* Sử dụng CSS Grid cho responsive */
+    display: grid;
+    /* Mặc định trên di động: 2 cột */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    /* Cho phép cuộn ngang (nếu bạn không dùng thư viện slider) */
+    /* display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; */
+}
+
+/* Tablet (Màn hình 768px trở lên) */
+@media (min-width: 768px) {
+    .bookList {
+        grid-template-columns: repeat(4, 1fr); /* 4 cột trên tablet */
+        gap: 20px;
+    }
+}
+
+/* Desktop (Màn hình 1024px trở lên) */
+@media (min-width: 1024px) {
+    .bookList {
+        grid-template-columns: repeat(5, 1fr); /* 5 cột trên desktop, như trong hình ảnh */
+        gap: 25px;
+    }
+}
+
+.bookItem {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    transition: box-shadow 0.2s;
+}
+
+    .bookItem:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+.imageWrapper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.bookImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.fhsAlphaTag {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: #c92127;
+    color: white;
+    padding: 2px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.bookTitle {
+    font-size: 14px;
+    height: 3em; /* Giới hạn 2-3 dòng */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 0 5px 0;
+    line-height: 1.5;
+}
+
+.priceInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.currentPrice {
+    color: #c92127;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.discount {
+    background-color: #c92127;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.originalPrice {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.soldQty {
+    font-size: 12px;
+    color: #666;
+}
+
+/* --- 4. View More Button --- */
+.viewMoreContainer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.viewMoreButton {
+    padding: 10px 30px;
+    border: 1px solid #c92127;
+    color: #c92127;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+    .viewMoreButton:hover {
+        background-color: #c92127;
+        color: white;
+    }
+
+/* --- 5. Navigation Buttons (chỉ hiển thị trên Desktop nếu dùng slider) --- */
+.navButton {
+    display: none; /* Mặc định ẩn trên di động */
+    /* ... style cho nút trượt nếu dùng slider library ... */
+}
+
+@media (min-width: 1024px) {
+    /* .navButton {
+        display: block; 
+        position: absolute;
+        ...
+    } */
+}

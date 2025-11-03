@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Dashboard",
+    "\\src\\components\\footer",
+    "\\src\\components\\Layout",
+    "\\src\\components\\Profile",
+    "\\src\\pages",
+    "\\src\\styles"
+  ],
+  "SelectedNode": "\\src\\components\\BestsellerRankings.jsx",
+  "PreviewInSolutionExplorer": false
+}

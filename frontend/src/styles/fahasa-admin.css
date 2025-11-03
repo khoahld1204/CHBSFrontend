@@ -1,0 +1,285 @@
+﻿:root {
+    --fahasa-primary: #D41C16;
+    --fahasa-secondary: #FFC107;
+    --fahasa-success: #4CAF50;
+    --fahasa-danger: #F44336;
+    --fahasa-info: #0d6efd;
+    --sidebar-width: 18rem;
+    --sidebar-collapsed-width: 6rem;
+    --header-height: 4.5rem;
+    
+    /* Light theme colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-tertiary: #f1f3f5;
+    --text-primary: #212529;
+    --text-secondary: #6c757d;
+    --text-muted: #adb5bd;
+    --border-color: #dee2e6;
+    --shadow-sm: rgba(0, 0, 0, 0.05);
+    --shadow-md: rgba(0, 0, 0, 0.1);
+    --hover-bg: #e9ecef;
+}
+
+/* Dark theme colors */
+[data-theme="dark"] {
+    --bg-primary: #1a1d29;
+    --bg-secondary: #212530;
+    --bg-tertiary: #2a2d3a;
+    --text-primary: #e9ecef;
+    --text-secondary: #adb5bd;
+    --text-muted: #6c757d;
+    --border-color: #343a46;
+    --shadow-sm: rgba(0, 0, 0, 0.3);
+    --shadow-md: rgba(0, 0, 0, 0.5);
+    --hover-bg: #2a2d3a;
+}
+
+html, body {
+    overflow-x: hidden !important;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+.bg-primary {
+    background-color: var(--fahasa-primary) !important;
+}
+
+.text-primary {
+    color: var(--fahasa-primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--fahasa-primary) !important;
+    border-color: var(--fahasa-primary) !important;
+}
+
+.text-success {
+    color: var(--fahasa-success) !important;
+}
+
+.text-danger {
+    color: var(--fahasa-danger) !important;
+}
+
+.progress-bar-fahasa {
+    background-color: var(--fahasa-primary);
+}
+
+/* Bố cục Sidebar và Main Content */
+.admin-sidebar {
+    width: var(--sidebar-width);
+    position: fixed; /* Cố định sidebar */
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1050;
+    transition: width 0.3s ease, transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    background-color: var(--bg-primary);
+    border-right: 1px solid var(--border-color);
+    box-shadow: 2px 0 10px var(--shadow-sm);
+    /* Đảm bảo nội dung sidebar cuộn được nếu quá dài */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.admin-sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.admin-sidebar::-webkit-scrollbar-track {
+    background: var(--bg-tertiary);
+}
+
+.admin-sidebar::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+}
+
+.admin-sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+.admin-header {
+    position: fixed; /* Cố định header */
+    top: 0;
+    right: 0;
+    height: var(--header-height);
+    z-index: 1060; /* Cao hơn sidebar */
+    transition: left 0.3s ease, width 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.admin-main-content-wrapper {
+    /* Tạo khoảng trống phía trên cho Header cố định */
+    padding-top: var(--header-height);
+    min-height: 100vh;
+    background-color: var(--bg-secondary);
+    transition: margin-left 0.3s ease, width 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    /* KHÔNG DÙNG width: 100% trong HTML, mà dùng flex-grow-1 và margin-left */
+}
+
+.admin-main-content {
+    padding: 1.5rem;
+    flex: 1;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Base Nav Item Style */
+.sidebar-nav-item {
+    color: var(--text-secondary);
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    justify-content: flex-start;
+    margin-bottom: 0.25rem;
+    position: relative;
+}
+
+    .sidebar-nav-item:hover {
+        background-color: var(--hover-bg);
+        color: var(--text-primary);
+    }
+
+    .sidebar-nav-item.active {
+        background-color: rgba(212, 28, 22, 0.15);
+        color: var(--fahasa-primary) !important;
+        font-weight: 600;
+    }
+
+        .sidebar-nav-item.active::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3px;
+            height: 60%;
+            background-color: var(--fahasa-primary);
+            border-radius: 0 3px 3px 0;
+        }
+
+    .sidebar-nav-item svg {
+        transition: color 0.2s ease;
+    }
+
+/* --- STYLE KHI SIDEBAR THU GỌN (COLLAPSED MODE) --- */
+.admin-sidebar.collapsed {
+    width: var(--sidebar-collapsed-width);
+}
+
+.sidebar-nav-item.collapsed {
+    justify-content: center;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+    .sidebar-nav-item.collapsed .me-2 {
+        margin-right: 0 !important;
+    }
+
+    .sidebar-nav-item.collapsed.active {
+        background-color: var(--fahasa-primary) !important;
+        color: #ffffff !important;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+        .sidebar-nav-item.collapsed.active svg {
+            color: #ffffff !important;
+        }
+
+
+/* Footer Styling */
+.admin-footer {
+    background-color: var(--bg-primary);
+    border-top: 1px solid var(--border-color);
+    padding: 1rem 1.5rem;
+    margin-top: auto;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .admin-sidebar {
+        transform: translateX(-100%);
+    }
+
+        .admin-sidebar.active {
+            transform: translateX(0);
+        }
+
+    .admin-main-content-wrapper {
+        /* Bỏ margin-left khi ở mobile */
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .admin-header {
+        width: 100% !important;
+        left: 0 !important;
+    }
+
+    .admin-main-content {
+        padding: 1rem;
+    }
+
+    .admin-footer {
+        padding: 0.75rem 1rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .admin-main-content {
+        padding: 0.75rem;
+    }
+
+    .admin-footer {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+}
+
+/* Dark mode specific adjustments */
+[data-theme="dark"] .admin-sidebar {
+    box-shadow: 2px 0 10px var(--shadow-md);
+}
+
+[data-theme="dark"] .admin-header {
+    box-shadow: 0 2px 4px var(--shadow-sm);
+}
+
+/* Admin Account Dropdown */
+.admin-account-dropdown-container {
+    position: relative;
+}
+
+.admin-account-dropdown-menu {
+    animation: fadeInDown 0.2s ease;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+    transition: transform 0.2s ease;
+}

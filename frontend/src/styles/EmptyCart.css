@@ -1,0 +1,261 @@
+﻿/* src/styles/EmptyCart.css */
+
+/* Bao bọc toàn bộ nội dung (phần màu trắng lớn) */
+.cart-page-wrapper {
+    max-width: 1300px;
+    min-height: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7; /* Màu nền xám nhạt */
+    font-family: Arial, sans-serif;
+}
+
+/* Header của nội dung trang (Giỏ hàng (0 sản phẩm)) */
+.cart-page-header {
+    display: flex;
+    align-items: baseline;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.cart-page-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-right: 10px;
+}
+
+.cart-page-item-count {
+    font-size: 14px;
+    color: #7a7e7f;
+}
+
+/* Container cho khối Giỏ hàng trống */
+.cart-empty-container {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Căn trên để hộp ở gần đầu trang hơn */
+}
+
+/* Khối hộp màu trắng chứa nội dung trống (giống Hình 2) */
+.cart-empty-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 60px 40px;
+    width: 100%;
+    max-width: 550px; /* Độ rộng tương đối */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px; /* Đẩy khối trắng xuống giữa */
+}
+
+/* Icon ZzZ mô phỏng */
+.empty-icon-graphic {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #a0a0a0;
+    line-height: 1;
+    /* Dùng thêm pseudo-element hoặc phức tạp hơn để mô phỏng chính xác icon túi ngủ */
+}
+
+.empty-message {
+    font-size: 14px;
+    color: #0d0e0f;
+    margin: 20px 0;
+}
+
+/* Nút MUA SẮM NGAY */
+.button-shopping-now {
+    background-color: #c92127;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .button-shopping-now:hover {
+        background-color: #a31b20;
+    }
+
+/* Responsive */
+@media (max-width: 992px) {
+    .cart-page-wrapper {
+        padding: 15px;
+        min-height: 600px;
+    }
+
+    .cart-page-header {
+        padding: 15px 0;
+        margin-bottom: 15px;
+    }
+
+    .cart-page-title {
+        font-size: 20px;
+    }
+
+    .cart-empty-box {
+        padding: 40px 25px;
+        margin-top: 30px;
+    }
+
+    .empty-icon-graphic {
+        width: 90px;
+        height: 90px;
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+
+    .empty-message {
+        font-size: 13px;
+    }
+
+    .button-shopping-now {
+        padding: 9px 25px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cart-page-wrapper {
+        padding: 10px;
+        min-height: 500px;
+    }
+
+    .cart-page-header {
+        padding: 12px 0;
+        margin-bottom: 12px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .cart-page-title {
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .cart-page-item-count {
+        font-size: 12px;
+    }
+
+    .cart-empty-box {
+        padding: 30px 20px;
+        margin-top: 20px;
+        border-radius: 6px;
+    }
+
+    .empty-icon-graphic {
+        width: 80px;
+        height: 80px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .empty-message {
+        font-size: 13px;
+        margin: 15px 0;
+        line-height: 1.5;
+    }
+
+    .button-shopping-now {
+        padding: 8px 20px;
+        font-size: 12px;
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cart-page-wrapper {
+        padding: 8px;
+        min-height: 400px;
+    }
+
+    .cart-page-header {
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+
+    .cart-page-title {
+        font-size: 16px;
+        margin-right: 6px;
+    }
+
+    .cart-page-item-count {
+        font-size: 11px;
+    }
+
+    .cart-empty-container {
+        align-items: center;
+    }
+
+    .cart-empty-box {
+        padding: 25px 15px;
+        margin-top: 15px;
+        border-radius: 4px;
+    }
+
+    .empty-icon-graphic {
+        width: 70px;
+        height: 70px;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .empty-message {
+        font-size: 12px;
+        margin: 12px 0;
+        padding: 0 10px;
+    }
+
+    .button-shopping-now {
+        padding: 10px 18px;
+        font-size: 11px;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cart-page-title {
+        font-size: 15px;
+    }
+
+    .cart-page-item-count {
+        font-size: 10px;
+    }
+
+    .cart-empty-box {
+        padding: 20px 12px;
+    }
+
+    .empty-icon-graphic {
+        width: 60px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .empty-message {
+        font-size: 11px;
+    }
+
+    .button-shopping-now {
+        padding: 9px 15px;
+        font-size: 10px;
+    }
+}
